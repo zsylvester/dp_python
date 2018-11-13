@@ -1,4 +1,5 @@
 from distutils.core import setup, Extension
+import numpy
 
 module1 = Extension('_dpcore_py',
                     sources = ['dpcore_py.c'],
